@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="loginFallido" time="16" tests="2" failures="0" errors="0">
+   <testsuite name="loginFallido" tests="2" failures="0" errors="0" time="16" timestamp="2018-12-18 11:29:38" hostname="miguel.negrillo - DESA29.grupoonetec.local" id="Test Suites/loginFallido">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\miguel.negrillo\\Katalon Studio\\loginFallido\\Reports\\loginFallido\\20181218_112936"/>
+         <property name="logFiles" value="C:\\Users\\miguel.negrillo\\Katalon Studio\\loginFallido\\Reports\\loginFallido\\20181218_112936\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\miguel.negrillo\\Katalon Studio\\loginFallido\\Reports\\loginFallido\\20181218_112936\\C:/Users/miguel.negrillo/Katalon Studio/captura18122018112941.png, C:\\Users\\miguel.negrillo\\Katalon Studio\\loginFallido\\Reports\\loginFallido\\20181218_112936\\C:/Users/miguel.negrillo/Katalon Studio/xencontrada.png, C:\\Users\\miguel.negrillo\\Katalon Studio\\loginFallido\\Reports\\loginFallido\\20181218_112936\\C:/Users/miguel.negrillo/Katalon Studio/capturaOneTec18122018112949.png"/>
+         <property name="hostName" value="miguel.negrillo - DESA29.grupoonetec.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.9.1.2"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="10.0.190.71"/>
+         <property name="sessionId" value="b4f6241521c6752a7435a2c6a53064ed"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/demo" classname="Test Cases/demo" status="PASSED">
+         <system-out><![CDATA[2018-12-18 11:29:38 - [TEST_CASE][PASSED] - Test Cases/demo: Test Cases/demo
+
+2018-12-18 11:29:38 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2018-12-18 11:29:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-18 11:29:41 - [TEST_STEP][PASSED] - use(groovy.time.TimeCategory, { -> ... }): null
+
+2018-12-18 11:29:41 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2018-12-18 11:29:43 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2018-12-18 11:29:43 - [TEST_STEP][PASSED] - texto = today.format("ddMMyyyyHHmmss"): null
+
+2018-12-18 11:29:43 - [TEST_STEP][PASSED] - setViewPortSize(1024, 2048): Viewport is set to new size with width = 1024 and height = 2048
+
+2018-12-18 11:29:44 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1024 and height = 2048
+
+2018-12-18 11:29:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2018-12-18 11:29:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2018-12-18 11:29:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Username_username"), "usuario"): Text 'usuario' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Username_username'
+
+2018-12-18 11:29:45 - [MESSAGE][PASSED] - Text 'usuario' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Username_username'
+
+2018-12-18 11:29:45 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Password_password"), "cDbzSVqoOR4ZSDO9XOFwfA=="): Text ****** has been set on object 'Object Repository/Page_CURA Healthcare Service/input_Password_password'
+
+2018-12-18 11:29:45 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_CURA Healthcare Service/input_Password_password'
+
+2018-12-18 11:29:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2018-12-18 11:29:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2018-12-18 11:29:45 - [TEST_STEP][PASSED] - if (verifyElementText(findTestObject("Object Repository/Page_CURA Healthcare Service/p_Login failed Please ensure t"), "Login failed! Please ensure the username and password are valid.")): null
+
+2018-12-18 11:29:45 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_CURA Healthcare Service/p_Login failed Please ensure t' are matched.
+
+2018-12-18 11:29:45 - [TEST_STEP][PASSED] - out.println("=========COINCIDE.========="): null
+
+2018-12-18 11:29:45 - [TEST_STEP][PASSED] - takeScreenshot("C:/Users/miguel.negrillo/Katalon Studio/captura" + texto + ".png"): Taking screenshot successfully
+
+2018-12-18 11:29:46 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\miguel.negrillo\\Katalon Studio\\loginFallido\\Reports\\loginFallido\\20181218_112936\\C:/Users/miguel.negrillo/Katalon Studio/captura18122018112941.png]]
+
+2018-12-18 11:29:46 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2018-12-18 11:29:46 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/demo2" classname="Test Cases/demo2" status="PASSED">
+         <system-out><![CDATA[2018-12-18 11:29:46 - [TEST_CASE][PASSED] - Test Cases/demo2: Test Cases/demo2
+
+2018-12-18 11:29:47 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2018-12-18 11:29:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-18 11:29:49 - [TEST_STEP][PASSED] - use(groovy.time.TimeCategory, { -> ... }): null
+
+2018-12-18 11:29:49 - [TEST_STEP][PASSED] - texto = today.format("ddMMyyyyHHmmss"): null
+
+2018-12-18 11:29:49 - [TEST_STEP][PASSED] - navigateToUrl("http://www.onetec.es/"): Navigate to 'http://www.onetec.es/' successfully
+
+2018-12-18 11:29:51 - [MESSAGE][PASSED] - Navigate to 'http://www.onetec.es/' successfully
+
+2018-12-18 11:29:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Onetec - Grupo Onetec/a_Aceptar")): Object: 'Object Repository/Page_Onetec - Grupo Onetec/a_Aceptar' is clicked on
+
+2018-12-18 11:29:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Onetec - Grupo Onetec/a_Aceptar' is clicked on
+
+2018-12-18 11:29:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Onetec - Grupo Onetec/span_CONTACTO")): Object: 'Object Repository/Page_Onetec - Grupo Onetec/span_CONTACTO' is clicked on
+
+2018-12-18 11:29:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Onetec - Grupo Onetec/span_CONTACTO' is clicked on
+
+2018-12-18 11:29:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Formulario/input_Nombre__contacto_WAR_con"), "Nombre"): Text 'Nombre' is set on object 'Object Repository/Formulario/input_Nombre__contacto_WAR_con'
+
+2018-12-18 11:29:52 - [MESSAGE][PASSED] - Text 'Nombre' is set on object 'Object Repository/Formulario/input_Nombre__contacto_WAR_con'
+
+2018-12-18 11:29:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Formulario/input_Email__contacto_WAR_cont"), "mail"): Text 'mail' is set on object 'Object Repository/Formulario/input_Email__contacto_WAR_cont'
+
+2018-12-18 11:29:52 - [MESSAGE][PASSED] - Text 'mail' is set on object 'Object Repository/Formulario/input_Email__contacto_WAR_cont'
+
+2018-12-18 11:29:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Formulario/input_Telfono__contacto_WAR_co"), "555666555"): Text '555666555' is set on object 'Object Repository/Formulario/input_Telfono__contacto_WAR_co'
+
+2018-12-18 11:29:53 - [MESSAGE][PASSED] - Text '555666555' is set on object 'Object Repository/Formulario/input_Telfono__contacto_WAR_co'
+
+2018-12-18 11:29:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Formulario/textarea_Comentarios__contacto"), " Este es un comentario"): Text ' Este es un comentario' is set on object 'Object Repository/Formulario/textarea_Comentarios__contacto'
+
+2018-12-18 11:29:53 - [MESSAGE][PASSED] - Text ' Este es un comentario' is set on object 'Object Repository/Formulario/textarea_Comentarios__contacto'
+
+2018-12-18 11:29:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Formulario/check")): Object: 'Object Repository/Formulario/check' is clicked on
+
+2018-12-18 11:29:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Formulario/check' is clicked on
+
+2018-12-18 11:29:53 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Formulario/a_Hoja_fancybox-close"), 30): Object 'Object Repository/Formulario/a_Hoja_fancybox-close' is present
+
+2018-12-18 11:29:53 - [MESSAGE][PASSED] - Object 'Object Repository/Formulario/a_Hoja_fancybox-close' is present
+
+2018-12-18 11:29:53 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Object Repository/Formulario/a_Hoja_fancybox-close"), 30)): Object: 'Object Repository/Formulario/a_Hoja_fancybox-close' is clicked on
+
+2018-12-18 11:29:53 - [MESSAGE][PASSED] - Object 'Object Repository/Formulario/a_Hoja_fancybox-close' is present
+
+2018-12-18 11:29:53 - [TEST_STEP][PASSED] - out.println("ENCONTRADO"): null
+
+2018-12-18 11:29:53 - [TEST_STEP][PASSED] - takeScreenshot("C:/Users/miguel.negrillo/Katalon Studio/xencontrada.png"): Taking screenshot successfully
+
+2018-12-18 11:29:53 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\miguel.negrillo\\Katalon Studio\\loginFallido\\Reports\\loginFallido\\20181218_112936\\C:/Users/miguel.negrillo/Katalon Studio/xencontrada.png]]
+
+2018-12-18 11:29:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Formulario/a_Hoja_fancybox-close")): Object: 'Object Repository/Formulario/a_Hoja_fancybox-close' is clicked on
+
+2018-12-18 11:29:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Formulario/a_Hoja_fancybox-close' is clicked on
+
+2018-12-18 11:29:53 - [TEST_STEP][PASSED] - takeScreenshot("C:/Users/miguel.negrillo/Katalon Studio/capturaOneTec" + texto + ".png"): Taking screenshot successfully
+
+2018-12-18 11:29:53 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\miguel.negrillo\\Katalon Studio\\loginFallido\\Reports\\loginFallido\\20181218_112936\\C:/Users/miguel.negrillo/Katalon Studio/capturaOneTec18122018112949.png]]
+
+2018-12-18 11:29:53 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2018-12-18 11:29:54 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-12-18 11:29:38 - [TEST_SUITE][PASSED] - loginFallido: Test Cases/demo2]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

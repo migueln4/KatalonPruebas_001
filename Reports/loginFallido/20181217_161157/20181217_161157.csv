@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+loginFallido,Chrome 71.0.3578.98,,2018-12-17 16:11:58,2018-12-17 16:12:10,"11,595s",FAILED
+,,,,,,
+Test Cases/Twitter,Chrome 71.0.3578.98,,2018-12-17 16:11:58,2018-12-17 16:12:09,"10,498s",FAILED
+"openBrowser("""")",Chrome 71.0.3578.98,,2018-12-17 16:11:59,2018-12-17 16:12:06,"7,027s",PASSED
+"navigateToUrl(""https://twitter.com/"")",Chrome 71.0.3578.98,,2018-12-17 16:12:06,2018-12-17 16:12:08,"2,075s",PASSED
+"setText(findTestObject(""Object Repository/Page_Twitter. Es lo que est pasando/input_Saltar al contenido_sess""), ""usuario"")",Chrome 71.0.3578.98,,2018-12-17 16:12:08,2018-12-17 16:12:08,"0,676s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Twitter. Es lo que est pasando/input_Saltar al contenido_sess_11""), ""cDbzSVqoOR4ZSDO9XOFwfA=="")",Chrome 71.0.3578.98,,2018-12-17 16:12:08,2018-12-17 16:12:09,"0,417s",FAILED

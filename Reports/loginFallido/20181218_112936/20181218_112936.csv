@@ -1,0 +1,33 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+loginFallido,Chrome 71.0.3578.98,,2018-12-18 11:29:38,2018-12-18 11:29:54,"16,702s",PASSED
+,,,,,,
+Test Cases/demo,Chrome 71.0.3578.98,,2018-12-18 11:29:38,2018-12-18 11:29:46,"8,699s",PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2018-12-18 11:29:38,2018-12-18 11:29:41,"3,254s",PASSED
+"use(groovy.time.TimeCategory, { -> ... })",Chrome 71.0.3578.98,,2018-12-18 11:29:41,2018-12-18 11:29:41,"0,024s",PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 71.0.3578.98,,2018-12-18 11:29:41,2018-12-18 11:29:43,"1,773s",PASSED
+"texto = today.format(""ddMMyyyyHHmmss"")",Chrome 71.0.3578.98,,2018-12-18 11:29:43,2018-12-18 11:29:43,"0,002s",PASSED
+"setViewPortSize(1024, 2048)",Chrome 71.0.3578.98,,2018-12-18 11:29:43,2018-12-18 11:29:44,"1,139s",PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 71.0.3578.98,,2018-12-18 11:29:44,2018-12-18 11:29:45,"0,323s",PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Username_username""), ""usuario"")",Chrome 71.0.3578.98,,2018-12-18 11:29:45,2018-12-18 11:29:45,"0,133s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Password_password""), ""cDbzSVqoOR4ZSDO9XOFwfA=="")",Chrome 71.0.3578.98,,2018-12-18 11:29:45,2018-12-18 11:29:45,"0,150s",PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/button_Login""))",Chrome 71.0.3578.98,,2018-12-18 11:29:45,2018-12-18 11:29:45,"0,360s",PASSED
+"if (verifyElementText(findTestObject(""Object Repository/Page_CURA Healthcare Service/p_Login failed Please ensure t""), ""Login failed! Please ensure the username and password are valid.""))",Chrome 71.0.3578.98,,2018-12-18 11:29:45,2018-12-18 11:29:45,"0,094s",PASSED
+"takeScreenshot(""C:/Users/miguel.negrillo/Katalon Studio/captura"" + texto + "".png"")",Chrome 71.0.3578.98,,2018-12-18 11:29:45,2018-12-18 11:29:46,"0,429s",PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2018-12-18 11:29:46,2018-12-18 11:29:46,"0,700s",PASSED
+,,,,,,
+Test Cases/demo2,Chrome 71.0.3578.98,,2018-12-18 11:29:46,2018-12-18 11:29:54,"7,798s",PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2018-12-18 11:29:47,2018-12-18 11:29:49,"2,186s",PASSED
+"use(groovy.time.TimeCategory, { -> ... })",Chrome 71.0.3578.98,,2018-12-18 11:29:49,2018-12-18 11:29:49,"0,003s",PASSED
+"texto = today.format(""ddMMyyyyHHmmss"")",Chrome 71.0.3578.98,,2018-12-18 11:29:49,2018-12-18 11:29:49,"0,001s",PASSED
+"navigateToUrl(""http://www.onetec.es/"")",Chrome 71.0.3578.98,,2018-12-18 11:29:49,2018-12-18 11:29:51,"1,987s",PASSED
+"click(findTestObject(""Object Repository/Page_Onetec - Grupo Onetec/a_Aceptar""))",Chrome 71.0.3578.98,,2018-12-18 11:29:51,2018-12-18 11:29:51,"0,064s",PASSED
+"click(findTestObject(""Object Repository/Page_Onetec - Grupo Onetec/span_CONTACTO""))",Chrome 71.0.3578.98,,2018-12-18 11:29:51,2018-12-18 11:29:52,"1,384s",PASSED
+"setText(findTestObject(""Object Repository/Formulario/input_Nombre__contacto_WAR_con""), ""Nombre"")",Chrome 71.0.3578.98,,2018-12-18 11:29:52,2018-12-18 11:29:52,"0,122s",PASSED
+"setText(findTestObject(""Object Repository/Formulario/input_Email__contacto_WAR_cont""), ""mail"")",Chrome 71.0.3578.98,,2018-12-18 11:29:52,2018-12-18 11:29:52,"0,094s",PASSED
+"setText(findTestObject(""Object Repository/Formulario/input_Telfono__contacto_WAR_co""), ""555666555"")",Chrome 71.0.3578.98,,2018-12-18 11:29:52,2018-12-18 11:29:53,"0,100s",PASSED
+"setText(findTestObject(""Object Repository/Formulario/textarea_Comentarios__contacto""), "" Este es un comentario"")",Chrome 71.0.3578.98,,2018-12-18 11:29:53,2018-12-18 11:29:53,"0,134s",PASSED
+"click(findTestObject(""Object Repository/Formulario/check""))",Chrome 71.0.3578.98,,2018-12-18 11:29:53,2018-12-18 11:29:53,"0,076s",PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Formulario/a_Hoja_fancybox-close""), 30)",Chrome 71.0.3578.98,,2018-12-18 11:29:53,2018-12-18 11:29:53,"0,031s",PASSED
+"if (verifyElementPresent(findTestObject(""Object Repository/Formulario/a_Hoja_fancybox-close""), 30))",Chrome 71.0.3578.98,,2018-12-18 11:29:53,2018-12-18 11:29:53,"0,368s",PASSED
+"takeScreenshot(""C:/Users/miguel.negrillo/Katalon Studio/capturaOneTec"" + texto + "".png"")",Chrome 71.0.3578.98,,2018-12-18 11:29:53,2018-12-18 11:29:53,"0,272s",PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2018-12-18 11:29:53,2018-12-18 11:29:54,"0,830s",PASSED

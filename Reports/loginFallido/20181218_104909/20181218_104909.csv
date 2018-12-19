@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+loginFallido,Chrome 71.0.3578.98,,2018-12-18 10:49:11,2018-12-18 10:49:33,"22,844s",FAILED
+,,,,,,
+Test Cases/demo,Chrome 71.0.3578.98,,2018-12-18 10:49:11,2018-12-18 10:49:26,"14,876s",PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2018-12-18 10:49:11,2018-12-18 10:49:14,"3,230s",PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 71.0.3578.98,,2018-12-18 10:49:14,2018-12-18 10:49:22,"8,024s",PASSED
+"setViewPortSize(1024, 2048)",Chrome 71.0.3578.98,,2018-12-18 10:49:22,2018-12-18 10:49:23,"1,136s",PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 71.0.3578.98,,2018-12-18 10:49:23,2018-12-18 10:49:24,"0,309s",PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Username_username""), ""usuario"")",Chrome 71.0.3578.98,,2018-12-18 10:49:24,2018-12-18 10:49:24,"0,143s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Password_password""), ""cDbzSVqoOR4ZSDO9XOFwfA=="")",Chrome 71.0.3578.98,,2018-12-18 10:49:24,2018-12-18 10:49:24,"0,148s",PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/button_Login""))",Chrome 71.0.3578.98,,2018-12-18 10:49:24,2018-12-18 10:49:24,"0,396s",PASSED
+"if (verifyElementText(findTestObject(""Object Repository/Page_CURA Healthcare Service/p_Login failed Please ensure t""), ""Login failed! Please ensure the username and password are valid.""))",Chrome 71.0.3578.98,,2018-12-18 10:49:24,2018-12-18 10:49:24,"0,100s",PASSED
+"takeScreenshot(""C:/Users/miguel.negrillo/Katalon Studio/captura.png"")",Chrome 71.0.3578.98,,2018-12-18 10:49:24,2018-12-18 10:49:25,"0,461s",PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2018-12-18 10:49:25,2018-12-18 10:49:26,"0,688s",PASSED
+,,,,,,
+Test Cases/demo2,Chrome 71.0.3578.98,,2018-12-18 10:49:26,2018-12-18 10:49:33,"7,057s",FAILED
+"openBrowser("""")",Chrome 71.0.3578.98,,2018-12-18 10:49:26,2018-12-18 10:49:28,"2,429s",PASSED
+"navigateToUrl(""http://www.onetec.es/"")",Chrome 71.0.3578.98,,2018-12-18 10:49:28,2018-12-18 10:49:31,"2,552s",PASSED
+"click(findTestObject(""Object Repository/Page_Onetec - Grupo Onetec/a_Aceptar""))",Chrome 71.0.3578.98,,2018-12-18 10:49:31,2018-12-18 10:49:31,"0,126s",PASSED
+"click(findTestObject(""Object Repository/Page_Onetec - Grupo Onetec/span_CONTACTO""))",Chrome 71.0.3578.98,,2018-12-18 10:49:31,2018-12-18 10:49:32,"1,501s",PASSED
+"setText(findTestObject(""null""), ""Nombre"")",Chrome 71.0.3578.98,,2018-12-18 10:49:32,2018-12-18 10:49:33,"0,325s",FAILED
